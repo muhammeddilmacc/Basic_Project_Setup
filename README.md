@@ -17,6 +17,7 @@
 
 ---
 
+```
 - npx tsc --init -->
 
   "baseUrl": "./src",
@@ -30,7 +31,9 @@
 - package.json --> "start": "node dist/index.js",
 - package.json --> "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",    
 - package.json --> "build": "tsc", 
-- package.json --> "postinstall": "npm run build",        
+- package.json --> "postinstall": "npm run build",      
+
+```
 ---
 
 ```
@@ -42,7 +45,7 @@
 ---
 
 ```
-  "scripts": {
+  "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/index.js\"",
     "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
